@@ -1,0 +1,22 @@
+{
+    "name": "vhbfernandes/http-cat-status",
+    "description": "Mock generator that returns http.cat images instead of status codes",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Victor Hugo Brito Fernandes",
+            "email": "victorhbfernandes@gmail.com"
+        },
+        {
+            "name": "Luiz Eduardo Favalessa Peruch",
+            "email": "eduardo@favalessa.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HttpCat\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
